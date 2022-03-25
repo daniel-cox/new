@@ -1,0 +1,45 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<h1>LSEMS Call Tracker</h1>
+<form action="insert.php" method="post">
+  <div class="form-group row">
+     <label for="colFormLabel" class="col-sm-2 col-form-label">Call #</label>
+     <div class="col-sm-10">
+       <input type="text" class="form-control" name="respNum" placeholder="Input call #">
+     </div>
+   </div>
+   <div class="form-group">
+   <label for="Textarea">Notes</label>
+   <textarea class="form-control" name="Notes" placeholder="Add notes here.." rows="4"></textarea>
+ </div>
+ <input class="btn btn-primary animated rubberBand" type="submit" value="Submit">
+</form>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">Call Number</th>
+      <th scope="col">Notes</th>
+    </tr>
+      </thead>
+    <tbody>
+    <tr>
+     <th scope="row"> 2 </tr>
+     <td>test</td>
+     <td>test</td>
+     <td>test</td>
+   </th>
+ </tbody>
+</table>
+</body>
+</html>
